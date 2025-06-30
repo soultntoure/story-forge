@@ -1,0 +1,15 @@
+{
+  "name": "story-forge-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for the StoryForge collaborative story studio.",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --parallel build",
+    "start:dev": "pnpm --parallel --filter ./apps/* start:dev",
+    "lint": "pnpm --parallel lint",
+    "test": "pnpm --parallel test"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
